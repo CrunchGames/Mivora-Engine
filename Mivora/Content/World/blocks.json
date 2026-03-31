@@ -1,0 +1,62 @@
+{
+  "blocks": [
+    {
+      "id": 1,
+      "name": "Grass",
+      "texturePath": "Content/Textures/grass.png",
+      "objPath": "Content/World/Block/grass/grass.obj",
+      "placement": {
+        "condition": "surface",
+        "minY": 0,
+        "maxY": 64,
+        "excludeNearWater": false
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dirt",
+      "texturePath": "Content/Textures/dirt.png",
+      "objPath": "Content/World/Block/dirt/dirt.obj",
+      "placement": {
+        "condition": "below_surface",
+        "depth": 3,
+        "minY": 0,
+        "maxY": 64
+      }
+    },
+    {
+      "id": 3,
+      "name": "Stone",
+      "texturePath": "Content/Textures/stone.png",
+      "objPath": "Content/World/Block/stone/stone.obj",
+      "placement": {
+        "condition": "deep",
+        "minY": 0,
+        "maxY": 64
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sand",
+      "texturePath": "Content/Textures/sand.png",
+      "objPath": "Content/World/Block/sand/sand.obj",
+      "placement": {
+        "condition": "surface",
+        "minY": 0,
+        "maxY": 64,
+        "excludeNearWater": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "Water",
+      "texturePath": "Content/Textures/water.png",
+      "objPath": "Content/World/Block/water/water.obj",
+      "placement": {
+        "condition": "water",
+        "minY": 0,
+        "maxY": 64
+      }
+    }
+  ]
+}
